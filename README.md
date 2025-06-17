@@ -74,8 +74,6 @@ cd PHP-Auth-System-Login-Register
   -Create a users table:
 
 ```sql
-Copy
-Edit
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -90,8 +88,6 @@ CREATE TABLE users (
   -Ensure the database credentials in config.php match your local setup:
 
 ```php
-Copy
-Edit
 $conn = mysqli_connect('localhost', 'root', '', 'auth_system');
 ```
 
@@ -100,7 +96,5 @@ $conn = mysqli_connect('localhost', 'root', '', 'auth_system');
   -Open your browser and go to:
 
 ```pgsql
-Copy
-Edit
 http://localhost/PHP-Auth-System-Login-Register/index.php
 ```
